@@ -1,0 +1,11 @@
+CRITICAL - 2023-01-30 17:37:58 --> Undefined variable $base_url
+in APPPATH\Views\categorias\contents.php on line 11.
+ 1 APPPATH\Views\categorias\contents.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\categorias\\contents.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categorias\\contents.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('categorias/contents', [], true)
+ 5 APPPATH\Controllers\Categorias.php(20): view('categorias/contents', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Categorias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
